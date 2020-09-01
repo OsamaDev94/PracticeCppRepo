@@ -33,8 +33,8 @@ int Enemy::age;
 //}
 int main()
 {
-	Player p;
-	p.Move(8, 9);
+	Player m;
+	m.Move(8, 9);
 
 	Enemy en;
 	en.age = 6;
