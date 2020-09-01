@@ -8,6 +8,8 @@ using namespace std;
 void DoubleArrayElements(int A[], int size);
 int SumOfArrayElement(int A[], int size);
 
+// decleare extern members of a struct 
+
 
 class Player {
 public:
@@ -21,25 +23,14 @@ public:
 	}
 };
 
-struct Enemy {
-	// define static varaible equal to a variable in different namespace and we use scope operator ::
-	// also needs definition as function
-	static int age;
-};
+struct Entity;
 
-int Enemy::age;
-//void TestFunction() {
-//	C2("ih");
-//}
 int main()
 {
-	Player m;
-	m.Move(8, 9);
+	/*Player m;
+	m.Move(8, 9);*/
 
-	Enemy en;
-	en.age = 6;
 
-	Enemy::age = 9;
 	//int B[] = { 1,2,3,4,5 };
 	//int sizeOfArray = sizeof(B) / sizeof(int);
 	//int sum = 0;
@@ -47,15 +38,18 @@ int main()
 	//sum = SumOfArrayElement(B, sizeOfArray);
 
 	//C("Sum Of Array ", sum);
-	int* p;
+	/*int* p;
 	int size;
 	C2("enter array size ");
 	cin >> size;
 
 	p = new int[size];
-	C("size of p ", sizeof(p));
+	C("size of p ", sizeof(p));*/
 	//delete[] p;
 	//TestFunction();
 
+	//-------------------- Static --------------------------
+	
+	
 }
 
